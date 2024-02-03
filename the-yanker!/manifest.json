@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Yanker extension",
+    "description": "This extension yanks whatever your select with yout pointer.",
+    "version": "1.0",
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "permissions":["activeTab","ClipboardWrite"]
+  }
