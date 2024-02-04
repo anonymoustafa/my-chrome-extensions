@@ -1,10 +1,15 @@
 {
     "manifest_version": 2,
-    "name": "Yanker extension",
-    "description": "This extension yanks whatever your select with yout pointer.",
-    "version": "1.0",
-    "browser_action": {
-      "default_popup": "popup.html"
+    "name": "Yanker!",
+    "version": "1.0.0",
+    "browser_action":{"default_popup":"popup.html"},
+    "description": "Copy selected text",
+    "permissions": ["contextMenus"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
     },
-    "permissions":["activeTab","ClipboardWrite"]
-}
+    "icons":{
+        "128":"logo.png"
+    }
+  }
