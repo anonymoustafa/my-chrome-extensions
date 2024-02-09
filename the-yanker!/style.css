@@ -3,3 +3,7 @@
     height: 100px;
     background-color: f0f0f0;
 }
+
+#mySlider {
+    width: 30px; /* Adjust this value to change the length of the slider */
+  }
